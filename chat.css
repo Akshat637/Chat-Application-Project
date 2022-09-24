@@ -1,0 +1,39 @@
+.msgbar {
+    position: fixed;
+    bottom: 0;
+    background-color: cornflowerblue;
+    width: 100%;
+    padding: 7px;
+
+}
+
+.fa-message {
+    color: rgb(225, 227, 228);
+}
+
+#inptext {
+    width: 50%;
+    margin-left: 240px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    background-color: rgb(252, 253, 252);
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+.sendmsg {
+    background-color: white;
+    border: none;
+    padding: 6px;
+    border-radius: 5px;
+    color: red;
+    border: 1px solid white;
+
+}
+
+#gchat {
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+
+}
