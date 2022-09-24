@@ -1,7 +1,11 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+let jwt =require('jsonwebtoken')
+let bcrypt=require('bcrypt');
 const cors = require('cors');
 const sequelize = require('./models/database');
+
+
 const User = require('./models/user')
 
 const app = express();

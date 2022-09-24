@@ -24,7 +24,6 @@ btnsubmit.addEventListener('click',(e)=>{
       if (res.status === 200) {
         alert('login successful')
         localStorage.setItem('token', res.data.token)
-        window.location.replace('home.html');
       }
       
     }
