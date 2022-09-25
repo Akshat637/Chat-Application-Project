@@ -36,7 +36,7 @@ sendmsg.addEventListener('click', (e) => {
         })
 })
 
-// setInterval(() => {
+setInterval(() => {
     axios
         .get("http://localhost:8400/getmessages", {
             headers: { authorization: token },
@@ -71,7 +71,7 @@ sendmsg.addEventListener('click', (e) => {
             console.log(err);
         });
 
-// }, 800);
+}, 800);
 
 let signout = document.querySelector('#signout');
 signout.addEventListener('click', () => {
