@@ -7,6 +7,7 @@ const sequelize = require('./models/database');
 
 
 const User = require('./models/user')
+const Message = require('./models/message')
 
 const app = express();
 
@@ -15,9 +16,13 @@ app.use(bodyParser.json());
 app.use(cors());
 
 let SignUpLogin=require('./routes/usersignup');
+const messageroute = require('./routes/message');
 
 app.use(SignUpLogin);
+app.use(messageroute);
 
+User.hasMany(Message);
+Message.belongsTo(User);
 
 sequelize
 // .sync({force: true})
