@@ -1,0 +1,123 @@
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#signoutgrp{
+
+    cursor: pointer;
+    color: rgb(240, 235, 236);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+.msgbar {
+    position: fixed;
+    bottom: 0;
+    background-color: cornflowerblue;
+    width: 100%;
+    padding: 7px;
+
+}
+
+.fa-message {
+    color: rgb(225, 227, 228);
+}
+
+#inptext {
+    width: 70%;
+    margin-left: 240px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    background-color: rgb(252, 253, 252);
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+.sendmsg {
+    background-color: white;
+    border: none;
+    padding: 6px;
+    border-radius: 5px;
+    color: red;
+    border: 1px solid white;
+
+}
+
+.listofgroups{
+position: absolute;
+margin: 380px 80vh;
+width: 45%;
+background-color:rgb(231, 242, 245);
+padding: 1%;
+}
+.list1{
+    border-bottom: 1px solid rgb(24, 25, 24);
+    padding-bottom: 10px;
+}
+.list2{
+        border-bottom: 1px solid rgb(24, 25, 24);
+    padding-bottom: 10px;
+
+
+}
+
+#headgrps{
+display: flex;  
+justify-content: space-between;
+  background-color:rgb(104, 189, 238);
+  padding: 6px;
+}
+
+.grpheading{
+font-family: 'Satisfy', cursive;
+padding: 5px;
+color: blue;
+border-bottom: 1px solid black;
+
+}
+
+.groupmsgs{  
+         margin-right: 65%; 
+
+
+} 
+
+#addtogroup{
+    border: none;
+    background-color: rgb(107, 107, 78);
+    padding: 8px;
+    margin-top: 12px ;
+    color: rgb(18, 15, 231);
+    margin-bottom: 12px;
+    border-radius: 10px;
+}
+
+.addform{
+    background-color:rgba(170, 196, 236, 0.692);
+    padding: 1%;
+    display: grid;
+    place-items: center;
+
+
+}
+
+.addpeople{
+
+    position: absolute;
+    margin: 100px 80vh;
+    width: 25%;
+
+}
+#adminvalue{
+    margin-top: 10px;
+}
+
+.groupmessages{
+
+    margin-bottom: 100px;
+
+}
